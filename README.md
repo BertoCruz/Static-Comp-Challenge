@@ -35,5 +35,5 @@
 
 ### TO DO
 - drop down caret for circular proportrait class (profile name drop down)
-- https://www.geeksforgeeks.org/how-to-make-horizontal-line-with-words-in-the-middle-using-css/
+- [Add a line before and after drop down button](https://www.geeksforgeeks.org/how-to-make-horizontal-line-with-words-in-the-middle-using-css/)
 

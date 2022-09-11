@@ -30,10 +30,12 @@
     overflow: hidden; 
     border-radius: 50%; 
 } 
+
 .circular-portrait img { 
     height: auto; 
     width: 100%; 
 }
+
 
 .side-nav-main {
 
@@ -50,6 +52,21 @@
 /* JOB POSITION*/
 
 .job-position img {
+    height: 25px;
+    width: 25px;
+}
+
+.hiring-lead-portrait {
+    height: 30px;
+    width: 30px;
+}
+
+.job-description-edit img {
+    height: 25px;
+    width: 25px;
+}
+
+.sharing-container img {
     height: 25px;
     width: 25px;
 }
