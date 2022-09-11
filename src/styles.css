@@ -1,4 +1,15 @@
 /* BODY */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background: #4E4D76;
+}
 
 /* HEADER */
 .header-search img {
@@ -23,6 +34,15 @@
 
 
 /* SIDE NAV */
+.side-nav {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, 
+    rgba(82,67,103,1) 35%, 
+    rgba(183,108,138,1) 100%);
+}
+
 .circular-portrait { 
     position: relative; 
     height: 100px; 
@@ -69,4 +89,44 @@
 .sharing-container img {
     height: 25px;
     width: 25px;
+}
+
+/* SHARING*/
+
+.copy-link {
+    height: 30px;
+    display: flex;
+    max-width: 250px;
+}
+
+.copy-link-input {
+    flex-grow: 1;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    outline: none;
+}
+
+.copy-link-input :hover {
+    background: #eeeeee;
+}
+
+.copy-link-button {
+    flex-shrink: 0;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dddddd;
+    color: #333333;
+    outline: none;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.copy-link :hover {
+    background-color: #cccccc;
+
 }

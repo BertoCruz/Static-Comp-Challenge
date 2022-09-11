@@ -8,6 +8,41 @@
     <title>Static Comp Challenge</title>
 </head>
 <body>
+    <nav class="side-nav" aria-label="primary navigation">
+        <ul>
+            <div class="circular-portrait">
+                <a href="file:///Users/robertodani/Documents/turing_work/2mod/Static-Comp-Challenge/src/index.html" title="Home Page">
+                    <img src="./images/sample-profile.avif" alt="Profile Picture">
+                </a>
+            </div>
+            <div class="drop-down-profile-name">
+                <p>Sucari Wilson</p>
+            </div>
+            <ul class="side-nav-main">
+                <p>Main</p>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">JOBS</a></li>
+                <li><a href="#">RESUMES</a></li>
+                <li><a href="#">TASKS</a></li>
+                <li><a href="#">CALENDAR</a></li>
+            </ul>
+            <ul class="side-nav-admin">
+                <p>Admin</p>
+                <li><a href="#">USERS</a></li>
+                <li><a href="#">LOCATIONS</a></li>
+                <li><a href="#">WORKFLOWS</a></li>
+                <li><a href="#">JOB BOARDS</a></li>
+                <li><a href="#">SOCIAL</a></li>
+            </ul>
+            <ul class="side-nav-categories">
+                <p>Categories</p>
+                <li><a href="#">Administrative</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Executive</a></li>
+                <li><a href="#">Human Resources</a></li>
+            </ul>
+          </ul>
+    </nav>
     <header>
         <nav>
             <button>
@@ -39,50 +74,8 @@
             <div class="header-options">
                 <img src="./assets/more.png" alt="more options">
             </div>
-            <!-- <ul>
-            <li><a href="#">Primary nav</a></li>
-            <li><a href="#">Primary nav</a></li>
-            <li><a href="#">Primary nav</a></li>
-            <li><a href="#">Primary nav</a></li>
-            </ul> -->
         </nav>
     </header>
-
-    <nav class="side-nav">
-        <ul>
-            <div class="circular-portrait">
-                <a href="file:///Users/robertodani/Documents/turing_work/2mod/Static-Comp-Challenge/src/index.html" title="Home Page">
-                    <img src="./images/sample-profile.jpeg" alt="Profile Picture">
-                </a>
-            </div>
-            <div class="drop-down-profile-name">
-                <p>Sucari Wilson</p>
-            </div>
-            <ul class="side-nav-main">
-                <p>Main</p>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">JOBS</a></li>
-                <li><a href="#">RESUMES</a></li>
-                <li><a href="#">TASKS</a></li>
-                <li><a href="#">CALENDAR</a></li>
-            </ul>
-            <ul class="side-nav-admin">
-                <p>Admin</p>
-                <li><a href="#">USERS</a></li>
-                <li><a href="#">LOCATIONS</a></li>
-                <li><a href="#">WORKFLOWS</a></li>
-                <li><a href="#">JOB BOARDS</a></li>
-                <li><a href="#">SOCIAL</a></li>
-            </ul>
-            <ul class="side-nav-categories">
-                <p>Categories</p>
-                <li><a href="#">Administrative</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Executive</a></li>
-                <li><a href="#">Human Resources</a></li>
-            </ul>
-          </ul>
-    </nav>
     <section class="job-position-section">
         <div class="job-position">
             <h1 class="job-title">React Native Engineer, Creator Services</h1>
@@ -186,6 +179,10 @@
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="copy-link">
+                    <input type="text" class="copy-link-input" id="copyLinkInput" value="https://sample.com" readonly>
+                    <button type="button" class="copy-link-button" id="copyLinkButton">COPY</button>
+                </div>
             </div>
             <div class="sharing-container">
                 <div class="sharing-container-header">
@@ -194,6 +191,10 @@
                 </div>
                 <p>This widget embeds the buttons for sharing the job for submitting
                     a resume on your profile.</p>
+                <div class="copy-link">
+                    <input type="text" class="copy-link-input" id="copyLinkInput" value="https://sample.com" readonly>
+                    <button type="button" class="copy-link-button" id="copyLinkButton">COPY</button>
+                </div>
             </div>
             <div class="sharing-container last-sharing-container">
                 <div class="sharing-container-header">
@@ -202,8 +203,13 @@
                 </div>
                 <p>You can automatically upload multiple resumes to this job by emailing
                     to the address below.</p>
+                <div class="copy-link">
+                    <input type="text" class="copy-link-input" id="copyLinkInput" value="https://sample.com" readonly>
+                    <button type="button" class="copy-link-button" id="copyLinkButton">COPY</button>
+                </div>
             </div>
         </aside>
     </section>
 </body>
+<script type="text/javascript" src="./script.js"></script>
 </html>
