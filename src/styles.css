@@ -69,13 +69,43 @@ body {
 .main-nav {
     position: fixed;
     margin-left: 200px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
 }
+
+.header-content {
+    border: 2px solid #3F313B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 75px;
+}
+
+.header-content img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-search {
+    justify-content: flex-start;
+    width: 300px;
+}
+
 .header-search img {
     height: 25px;
     width: 25px;
 }
 
-.header-add-user img {
+.header-search input {
+    height: 100%;
+}
+
+/*.header-add-user img {
     height: 25px;
     width: 25px;
 }
@@ -83,12 +113,12 @@ body {
 .header-calendar img {
     height: 25px;
     width: 25px;
-}
+} 
 
 .header-options img {
     height: 25px;
     width: 25px;
-}
+} */
 
 /* JOB POSITION*/
 .job-position-section, .job-position-summary {
@@ -98,6 +128,12 @@ body {
 .job-position img {
     height: 25px;
     width: 25px;
+}
+
+/* JOB POSITION SUMMARY*/
+.chart img {
+    height: 200px;
+    width: 400px;
 }
 
 .hiring-lead-portrait {
@@ -116,6 +152,10 @@ body {
 }
 
 /* SHARING*/
+aside {
+    width: 20%;
+    float: right;
+}
 
 .copy-link {
     height: 30px;
