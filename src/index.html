@@ -10,72 +10,72 @@
 <body>
     <nav class="side-nav" aria-label="primary navigation">
         <ul>
-            <div class="circular-portrait">
-                <a href="file:///Users/robertodani/Documents/turing_work/2mod/Static-Comp-Challenge/src/index.html" title="Home Page">
-                    <img src="./images/sample-profile.avif" alt="Profile Picture">
-                </a>
+            <div class="side-nav-profile">
+                <div class="circular-portrait">
+                    <a href="file:///Users/robertodani/Documents/turing_work/2mod/Static-Comp-Challenge/src/index.html" title="Home Page">
+                        <img src="./images/sample-profile.avif" alt="Profile Picture">
+                    </a>
+                </div>
+                <div class="drop-down-profile-name">
+                    <p>Sucari Wilson <span>&or;</span></p>
+                </div>
             </div>
-            <div class="drop-down-profile-name">
-                <p>Sucari Wilson</p>
-            </div>
-            <ul class="side-nav-main">
-                <p>Main</p>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">JOBS</a></li>
-                <li><a href="#">RESUMES</a></li>
-                <li><a href="#">TASKS</a></li>
-                <li><a href="#">CALENDAR</a></li>
+            <ul class="side-nav-container">
+                <p class="side-nav-menu-title">Main</p>
+                <li><img src="./assets/home.png" alt="home">HOME</li>
+                <li><img src="./assets/bag.png" alt="briefcase">JOBS</li>
+                <li><img src="./assets/news.png" alt="resume letter">RESUMES</li>
+                <li><img src="./assets/list.png" alt="tasks list">TASKS</li>
+                <li><img src="./assets/calendar.png" alt="calendar">CALENDAR</li>
             </ul>
-            <ul class="side-nav-admin">
-                <p>Admin</p>
-                <li><a href="#">USERS</a></li>
-                <li><a href="#">LOCATIONS</a></li>
-                <li><a href="#">WORKFLOWS</a></li>
-                <li><a href="#">JOB BOARDS</a></li>
-                <li><a href="#">SOCIAL</a></li>
+            <ul class="side-nav-container">
+                <p class="side-nav-menu-title">Admin</p>
+                <li><img src="./assets/users.png" alt="users">USERS</li>
+                <li><img src="./assets/location.png" alt="location pin">LOCATIONS</li>
+                <li><img src="./assets/share.png" alt="workflows">WORKFLOWS</li>
+                <li><img src="./assets/job boards.png" alt="job boards">JOB BOARDS</li>
+                <li><img src="./assets/global.png" alt="social">SOCIAL</li>
             </ul>
-            <ul class="side-nav-categories">
-                <p>Categories</p>
-                <li><a href="#">Administrative</a></li>
-                <li><a href="#">Design</a></li>
-                <li><a href="#">Executive</a></li>
-                <li><a href="#">Human Resources</a></li>
+            <ul class="side-nav-container">
+                <p class="side-nav-menu-title">Categories</p>
+                <li>Administrative</li>
+                <li>Design</li>
+                <li>Executive</li>
+                <li>Human Resources</li>
             </ul>
           </ul>
     </nav>
-    <header>
-        <nav>
-            <button>
-                <svg viewBox="0 0 100 80" width="25" height="25">
-                    <rect width="100" height="20"></rect>
-                    <rect y="30" width="100" height="20"></rect>
-                    <rect y="60" width="100" height="20"></rect>
-                </svg>
-            </button>
-            <div class="header-search">
-                <form action="" role="search" aria-label="site">
-                    <img src="./assets/eye.png" alt="search">
-                    <input type="text" placeholder="Search for a job, task or resume" name="">
-                </form>
-            </div>
-            <form role="search" aria-label="site">
-                <label>
-                <span>Search</span>
-                <input type="search"/>
-                </label>
-                <button type="submit">Submit</button>
+    <div class="main-nav">
+        <button>
+            <svg viewBox="0 0 100 80" width="25" height="25">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+            </svg>
+        </button>
+        <div class="header-search">
+            <form action="" role="search" aria-label="site">
+                <img src="./assets/eye.png" alt="search">
+                <input type="text" placeholder="Search for a job, task or resume" name="">
             </form>
-            <div class="header-add-user">
-                <img src="./assets/add-user.png" alt="add user">
-            </div>
-            <div class="header-calendar">
-                <img src="./assets/calendar.png" alt="calendar">
-            </div>
-            <div class="header-options">
-                <img src="./assets/more.png" alt="more options">
-            </div>
-        </nav>
-    </header>
+        </div>
+        <form role="search" aria-label="site">
+            <label>
+            <span>Search</span>
+            <input type="search"/>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="header-add-user">
+            <img src="./assets/add-user.png" alt="add user">
+        </div>
+        <div class="header-calendar">
+            <img src="./assets/calendar.png" alt="calendar">
+        </div>
+        <div class="header-options">
+            <img src="./assets/more.png" alt="more options">
+        </div>
+    </div>
     <section class="job-position-section">
         <div class="job-position">
             <h1 class="job-title">React Native Engineer, Creator Services</h1>
